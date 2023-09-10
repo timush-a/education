@@ -6,21 +6,21 @@ class StringMethodsExamples:
         >>> s = "john"
         >>> s.capitalize()
         'John'
-        >>> print(s)
-        john
+        >>> s
+        'john'
         """
 
     def ex_02_casefold_and_lower(self) -> None:
         """
         >>> s = "JOHN"
         >>> s = s.lower()
-        >>> print(s)
-        john
+        >>> s
+        'john'
         >>> a = chr(926)
-        >>> print(a)
-        Ξ
-        >>> print(chr(913).casefold())
-        α
+        >>> a
+        'Ξ'
+        >>> chr(913).casefold()
+        'α'
         """
 
     def ex_03_upper(self) -> None:
