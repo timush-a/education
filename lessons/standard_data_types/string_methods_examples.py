@@ -41,7 +41,7 @@ class StringMethodsExamples:
         """
         >>> "abc".zfill(3)
         'abc'
-        >>> "filename.zip".zfill(15)
+        >>> "1_filename.zip".zfill(15)
         '000filename.zip'
         >>> for _ in range(3):
         ...     print(f"{str(_).zfill(5)}.json")
@@ -83,9 +83,9 @@ class StringMethodsExamples:
 
     def ex_09_startswith(self):
         """
-        >>> 'abcdef'.startswith('a')
+        >>> 'abcdef'.startswith('abc')
         True
-        >>> 'abcdef'.startswith('b')
+        >>> 'abcdef'.startswith('bce')
         False
         """
 

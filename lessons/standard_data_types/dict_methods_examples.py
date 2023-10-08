@@ -1,7 +1,6 @@
 
 
 class DictMethodsExamples:
-    # 'fromkeys', 'values', 'items', 'keys'
     def ex_01_create_dict(self) -> None:
         """
         >>> d = {"a": 3, "b": 5}
@@ -77,7 +76,7 @@ class DictMethodsExamples:
         >>> d = {'a': 3, 'b': 5}
         >>> d.setdefault('c', 4)
         4
-        >>> d
+        >>> print(d)
         {'a': 3, 'b': 5, 'c': 4}
 
         >>> d.setdefault('a', 1)
@@ -85,6 +84,7 @@ class DictMethodsExamples:
         >>> d
         {'a': 3, 'b': 5, 'c': 4}
         """
+
 
 if __name__ == "__main__":
     import doctest

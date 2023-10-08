@@ -52,7 +52,7 @@ class ListMethodsExamples:
         print(a.count(55))
 
     @example
-    def ex_05_clear_list(self) -> None:
+    def ex_05_extend_list(self) -> None:
         """
         a = [1, 2]
         b = [3, 4]
@@ -108,7 +108,7 @@ class ListMethodsExamples:
         a = [1, 2, 3, 4, 5]
         print(a.pop())
         print(a.pop(0))
-        print(a.pop(-1))
+        print(a.pop(-2))
 
     @example
     def ex_09_remove_value_from_list(self) -> None:

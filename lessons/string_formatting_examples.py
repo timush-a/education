@@ -17,7 +17,7 @@ class StringFormattingExamples:
     @example
     def ex_01_string_formatting_with_position(self) -> None:
         """Форматирование обычной строки с использованием позиции"""
-        print("{1}, {0}, {2}".format("zero", "first", "second"))
+        print("{0}, {0}, {1}".format("first", "second"))
 
     @example
     def ex_02_f_string_formatting(self) -> None:
